@@ -1,0 +1,149 @@
+body{
+	min-width: 320px;
+    margin: 0;
+    display: block;
+}
+body, html {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+}
+#tudo{
+	border-bottom: 1px solid #e6e6e6;
+	height: 80px;
+	width: 100%;
+}
+.Logo{
+	margin:1% 2%;
+	padding: 31px;
+ 	background-image: url(imagens/PicsArt_12-11-09.34.48.png);
+	background-size: 16%;
+	background-repeat: no-repeat;
+}
+.btn{
+	margin: 0 3%;
+	margin-top: -70px;
+	float: right;
+    color: #333;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+    text-decoration-color: transparent;
+}
+.btn:hover{
+	text-decoration: underline;
+}
+section{
+	display: block;
+	text-align: center;
+}
+img{
+	width: 50px;
+	background-size: 50px;
+	margin-top: 50px;
+}
+ul{
+	display: block;
+	padding: 0;
+	position: relative;
+}
+li{
+	display: list-item;
+	padding: 0 0 20px 15px;
+}
+button{
+	min-height: 55px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+    background-color: #e50914;
+    border:none;
+    font: 400 13.3333px Arial;
+    padding: 1em 1.5em 1em 2em;
+    cursor: pointer;
+    width: 300px;
+}
+button:hover{
+	background:#d20000;		
+}
+#footer{
+	width: 100%;
+	height: 0%;
+	margin-top: 35px;
+}
+.footerTopo{
+	color: #999;
+	margin: 40px;
+	font-size: 16px;
+	font-family: arial;
+	display: inline-block;
+}
+.footerTopo1{
+	color: #999;
+	text-decoration-color: transparent;
+}
+.footerTopo1:hover{
+	text-decoration: underline;
+}
+ a{
+	cursor: pointer;
+}
+.TudoUl{
+	padding: 0;
+    margin: 0;
+}
+ul li a.footerLi{
+	font-size: 13px;
+	color: #999;
+    
+    text-decoration-color: transparent;
+    margin: 25px;
+	font-family: arial;
+	display:inline;
+	margin-top: 100px;
+}
+.footerLi:hover{
+	text-decoration: underline;
+}
+
+.footerLi2{
+	margin-left: 250px;
+	margin-top: -35px;
+	list-style-type: none;
+	position: absolute;
+}
+ul li a{
+	color: #999;
+	font-size: 13px;
+	text-decoration-color: transparent;
+	font-family: arial;
+	display: inline-block;
+}
+ul li a:hover{
+	text-decoration: underline;
+}
+.footerLi3{
+	margin-left: 500px;
+	margin-top: -35px;
+	list-style-type: none;
+	position: absolute;
+}
+select{
+	width: 12%;
+	height: 45px;
+	background-image: url(imagens/icons8-globo-50.png);
+	background-repeat: no-repeat; 
+	background-position: 5% 50%;
+	background-size: 20px;
+	color: inherit;
+    font: inherit;
+    margin: 25px;
+    margin-left: 40px;
+    cursor: default;
+    background-color: #fff;	
+    color: #a6a6a6;
+    font-size: 15px;
+    text-align-last: center;
+    outline: none;
+}

@@ -1,0 +1,645 @@
+html{
+	overflow-x:hidden;
+}
+body, html {
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background: #141414;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Div-todo-Logo{
+	transition:all 0.3s ease;
+	margin:1% 2%;
+	padding: 30px;
+ 	background-image: url(imagens/PicsArt_12-11-09.34.48.png);
+	background-size: 13%;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+}
+#Div-todo-imagem{
+	width: 100%;
+	margin-left: 4px;
+}
+li{
+	list-style-type: none;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+   	margin: 10px;
+   	font-size: 13px;
+   	font-family: Arial;
+}
+a{
+	text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+}
+a:hover {
+    color: #e5e5e5;
+}
+#Div-todo-Menu{
+	margin-top: -70px;
+	margin-left: 200px;
+}
+
+input[type=text] {
+  width: 30px;
+  box-sizing: border-box;
+  border: 2px solid #141414;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #141414;
+  background-image: url(imagens/icons8-pesquisar-30.png);
+  background-position: 2px 0px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  outline: none;
+  color: #fff;
+  cursor:pointer;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+#Div-todo-input{
+	margin-top: -60px;
+	margin-left: 650px;
+}
+.Div-todo-compromissos{
+	margin-left: 15px;
+}
+.Div-todo-logado{
+	width: 30px;
+	margin-left: 10px;
+}
+@font-face {
+  font-family: 'The Perfect Christmas';
+  src: url('The Perfect Christmas.ttf') format('truetype');
+}
+
+.Div-todo-h1{
+	margin-top: -500px;
+	color: #fff;
+	font-weight: 700;
+	margin-left: 150px;
+	font-family: 'The Perfect Christmas';
+	font-size: 100px;
+}
+.Div-todo-h2{
+	width: 35%;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+	margin-left: 20px;
+	margin-top: 280px;
+}
+.Div-todo-btn-1{
+	margin-top: -180px;
+}
+.Div-todo-btn-1 button{
+	width: 85px;
+	height: 40px;
+	background-color: rgba(51,51,51,.4);
+	border-width: 0;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	outline: none;
+	margin: 0% 5%;
+	border-radius: 5px;
+}
+.Div-todo-btn-1 button:hover{
+	border: 1px solid rgba(255,255,255,.4);
+	color: black;
+	background-color: #E6E6E6;
+}
+.Div-todo-btn-2{
+	margin-top: -40px;
+}
+.Div-todo-btn-2 button{
+	height: 40px;
+	background-color: rgba(51,51,51,.4);
+	border-width: 0;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	outline: none;
+	margin: 0% 15%;
+	border-radius: 5px;
+}
+.Div-todo-btn-2 button:hover{
+	border: 1px solid rgba(255,255,255,.4);
+	color: black;
+	background-color: #E6E6E6;
+}
+.Div-todo-lista{
+	margin-top: 280px;
+	font-size: 20px;
+	color: #e5e5e5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 50px;	
+}
+.Div-todo-lista-img-1{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 50px;
+}
+.Div-todo-lista-img-1:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-2{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 490px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-2:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-3{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 920px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-3:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-1{
+	margin-top: -80px;
+	font-size: 20px;
+	color: #e5e5e5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 50px
+}
+.Div-todo-lista-img-4{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.Div-todo-lista-img-4:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-6{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 490px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-6:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+.Div-todo-lista-img-5{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 920px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-5:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+.Div-todo-lista-2{
+	margin-top: -110px;
+	font-size: 20px;
+	color: #e5e5e5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 50px
+}
+.Div-todo-lista-img-7{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.Div-todo-lista-img-7:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+.Div-todo-lista-img-8{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 490px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-8:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+.Div-todo-lista-img-9{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 920px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-9:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+video{
+	margin: 10px;
+	width: 800px;
+	height:450px;
+	margin-top: 50px;
+}
+@font-face {
+	font-family: 'Master Of Break';
+	src: url('master_of_break.ttf') format('truetype');
+}
+#Div-todo-amor{
+	background-image: url(imagens/Div-do-amor.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 530px;
+	background-size: cover;
+	margin: -5% 0%;
+}
+#Div-todo-amor img{
+	width: 750px;
+}
+#Div-todo-amor h1{
+	margin-left: 900px;
+	color: #fff;
+}
+#Div-todo-amor p{
+	width: 30%;
+	margin-left: 850px;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 80px;
+}
+.Div-todo-Amei-h1{
+	margin-top: -400px;
+	color: #F7819F;
+	font-weight: 700;
+	margin-left: 20px;
+}
+.Div-todo-Amei{
+	margin-left: 870px;
+	font-family: 'Master Of Break';
+	color: #F7819F;
+	width: 40%;
+	font-size: 25px;
+	font-weight: 400;
+}
+.Div-todo-btn-3{
+	margin-top: -130px;
+}
+.Div-todo-btn-3 button{
+	width: 85px;
+	height: 40px;
+	background-color: rgba(51,51,51,.4);
+	border-width: 0;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	outline: none;
+	margin: -5% 70%;
+	border-radius: 5px;
+}
+.Div-todo-btn-3 button:hover{
+	border: 1px solid rgba(255,255,255,.4);
+	color: black;
+	background-color: #E6E6E6;
+}
+.Div-todo-btn-4{
+	margin-top: -30px;
+}
+.Div-todo-btn-4 button{
+	width: 10%;
+	height: 40px;
+	background-color: rgba(51,51,51,.4);
+	border-width: 0;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	outline: none;
+	margin: 0% 80%;
+	border-radius: 5px;
+}
+.Div-todo-btn-4 button:hover{
+	border: 1px solid rgba(255,255,255,.4);
+	color: black;
+	background-color: #E6E6E6;
+}
+
+
+.Div-todo-lista-3{
+	margin-top: 70px;
+	font-size: 20px;
+	color: #e5e5e5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 70px;	
+}
+.Div-todo-lista-img-10{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-top: 50px;
+	margin-left: 70px;
+}
+.Div-todo-lista-img-10:hover{
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.Div-todo-lista-img-11{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 500px;
+	margin-top: -299px;
+}
+.Div-todo-lista-img-11:hover{
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.Div-todo-lista-img-12{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 920px;
+	margin-top: -300px;
+}
+.Div-todo-lista-img-12:hover{
+	-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.Div-todo-lista-4{
+	margin-top: -50px;
+	font-size: 20px;
+	color: #e5e5e5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 70px;	
+}
+.Div-todo-lista-img-13{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 70px;
+}
+.Div-todo-lista-img-13:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-14{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 499px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-14:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-15{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 920px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-15:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+
+.Div-todo-lista-5{
+	margin-top: -50px;
+	font-size: 20px;
+	color: #e5e5e5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 70px;	
+}
+.Div-todo-lista-img-16{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 70px;
+}
+.Div-todo-lista-img-16:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-17{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 499px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-17:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-18{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 920px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-18:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+
+.Div-todo-lista-6{
+	margin-top: -50px;
+	font-size: 20px;
+	color: #e5e5e5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 70px;	
+}
+.Div-todo-lista-img-20{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 70px;
+}
+.Div-todo-lista-img-20:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-21{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 499px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-21:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	 transform: scale(0.8);
+}
+.Div-todo-lista-img-22{
+	transition:all 0.3s ease;
+	width:483px;
+	height:298px;
+	cursor: pointer;
+	margin-left: 920px;
+	margin-top: -298px;
+}
+.Div-todo-lista-img-22:hover{
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.footer{
+  width: 100%;
+  height: 30%;
+}
+.footerTopo{
+  color: #999;
+  margin: 25px;
+  font-size: 16px;
+  font-family: arial;
+  display: inline-block;
+}
+.footerTopo1{
+  color: #999;
+  text-decoration-color: transparent;
+}
+.footerTopo1:hover{
+  text-decoration: underline;
+}
+ a{
+  cursor: pointer;
+}
+.TudoUl{
+  padding: 0;
+  margin: 0;
+}
+.footerLi{
+  font-size: 13px;
+  color: #999;
+  text-decoration-color: transparent;
+  margin: 25px;
+}
+.footerLi:hover{
+  text-decoration: underline;
+}
+
+.footerLi2{
+  list-style-type: none;
+  margin: 25px;
+  display: inline-block;
+}
+.footerLi3{
+  list-style-type: none;
+  margin: 25px;
+}
+.footerLi4{
+  list-style-type: none;
+  margin: 25px;
+  display: inline-block;
+}
+.footerLi5{
+  list-style-type: none;
+  margin: 25px;
+}
+ul li a{
+  color: #999;
+  font-size: 13px;
+  text-decoration-color: transparent;
+  font-family: arial;
+
+}
+ul li a:hover{
+  text-decoration: underline;
+}
+select{
+  width: 11%;
+  height: 40px;
+  background-image: url(imagens/icons8-globo-50.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 7% 50%;
+  margin: 25px;
+  cursor: default;
+  background-color: #000; 
+  color: #fff;
+  font-size: 13px;
+  text-align-last: center;
+  display: block;
+}
+div p{
+  color: #999;
+  font-size: 13px;
+  font-family: arial;
+  margin: 35px;
+  margin-top: -100px;
+}

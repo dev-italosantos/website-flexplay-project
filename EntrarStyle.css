@@ -1,0 +1,215 @@
+body, html {
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat; 	
+  	background-size: 135%;
+	background-image: url(imagens/ImagemFundo.png);
+
+}
+.Logo{
+	margin:1% 2%;
+	padding: 31px;
+ 	background-image: url(imagens/PicsArt_12-11-09.34.48.png);
+	background-size: 16%;
+	background-repeat: no-repeat;
+}
+
+form.formu {
+	font-family: arial;
+	padding: 50px 60px 40px;
+	width: 320px;
+	height: 470px;
+	border-radius: 5px;
+	margin-left: 35%;
+	background-color: rgba(0,0,0,.75);
+}
+h1{
+	color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    padding: 0;
+    margin-left: -5px;
+    margin-bottom: 28px;
+}
+
+.text2{
+	padding: 16px 20px 0;
+	height: 35px;
+	width: 90%;
+	border: 0;
+	margin: 10px;
+	border-radius: 4px;
+	margin-left: -5px;
+	color: #8c8c8c;
+	background-color: #151515;
+	font-size: 16px;
+	transform: translateY(-20%);
+	box-shadow:0 5px 0 #151515;
+	position:relative;
+  	top:5px;
+  	box-shadow:none;
+  	outline: none;
+}
+.text2:hover{
+	box-shadow:0 5px 0 #e50914;
+}
+.btn{
+	background-color: #e50914;
+	height: 45px;
+	width: 102%;
+	margin: 20px;
+	margin-left: -5px;
+	border-radius: 4px;
+	color: #FFF;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	font-weight:700;
+	outline: none;
+}
+.btn a{
+	color: #fff;
+	text-decoration: none;
+}
+.text3{
+	color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: default;
+    user-select: none;
+    cursor: pointer;
+    margin: -10px;
+    text-decoration-color: transparent;
+ 
+}
+.text3cont{
+  	height: 15px;
+  	width: 15px;
+  	cursor: pointer;
+  	border: solid white;
+  	margin-left: 8px;
+}
+.text3cont1{
+	color: #b3b3b3;
+	font-size: 13px;
+    font-weight: 500;
+    padding-top: 2px;
+    margin-left: 84px;
+    text-decoration-color: transparent;
+}
+.text3cont1:hover{
+	text-decoration: underline;
+}
+.iconefacebook{
+	height: 25px;
+    width: 25px;
+    margin-top: 130px;
+  	cursor: pointer;
+}
+.iconeface{
+	color: #737373;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -25px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.NovoAqui{
+	color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+    display: block;
+}
+.Assine{
+
+	color: #fff;
+	text-decoration-color: transparent;
+}
+.Assine:hover{
+	text-decoration: underline;
+}
+.footer{
+	width: 100%;
+	height: 31%;
+	margin-top: 100px;
+	background: rgba(0,0,0,.75);
+}
+.footerTopo{
+	color: #999;
+	margin: 25px;
+	font-size: 16px;
+	font-family: arial;
+	display: inline-block;
+}
+.footerTopo1{
+	color: #999;
+	text-decoration-color: transparent;
+}
+.footerTopo1:hover{
+	text-decoration: underline;
+}
+ a{
+	cursor: pointer;
+}
+.TudoUl{
+	padding: 0;
+    margin: 0;
+}
+ul li a.footerLi{
+	font-size: 13px;
+	color: #999;
+    display: inline-block;
+    text-decoration-color: transparent;
+    margin: 25px;
+	font-family: arial;
+	display:inline;
+	margin-top: 100px;
+}
+.footerLi:hover{
+	text-decoration: underline;
+}
+
+.footerLi2{
+	margin-left: 250px;
+	margin-top: -15px;
+	list-style-type: none;
+	position: absolute;
+}
+.footerLi3{
+	margin-left: 500px;
+	margin-top: -35px;
+	list-style-type: none;
+	position: absolute;
+}
+ul li a{
+	color: #999;
+	font-size: 13px;
+	text-decoration-color: transparent;
+	font-family: arial;
+	display: inline-block;
+}
+ul li a:hover{
+	text-decoration: underline;
+}
+select{
+	width: 12%;
+	height: 40px;
+	background-image: url(imagens/icons8-globo-50.png);
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 5% 55%;
+	color: inherit;
+    font: inherit;
+    margin: 25px;
+    cursor: default;
+    background-color: #000;	
+    color: #fff;
+    font-size: 15px;
+    padding: 12px;
+    text-align-last: center;
+}

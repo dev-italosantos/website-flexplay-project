@@ -1,0 +1,57 @@
+html{
+  overflow: hidden;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	font-family: arial;
+	width: 100%;
+	height: 300px;
+}
+.DivTudo{
+	width: 100%;
+	height: 300px;
+	max-width: 100%;
+}
+.div1{
+	padding: 40px 0; 
+	height: 0px; 
+}
+div p{
+	font-size: 25px;
+	width: 36%;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	margin: 30px;
+	margin-left: 120px;
+}
+.Btn{
+ 	font-size: 14px;
+	padding: 18px 28px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #e50914;
+	border:none;
+	line-height: 1em;
+	cursor: pointer;
+	border-radius: 2px;
+	min-width: 150px;
+	outline-color: #FFFFFF;
+	min-height: 32px;
+ }
+ .Btn:hover{
+ 	background:#d20000;	
+ }
+ #GeralBtn{
+ 	margin-left: 150px;
+ 	width: 100%;
+ }
+ div img{
+ 	width: 450px;
+ 	height: 320px;
+    display: block;
+    margin-top: -250px;
+    margin-left: 750px;
+ }
